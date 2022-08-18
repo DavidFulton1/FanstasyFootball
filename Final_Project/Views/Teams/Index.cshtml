@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Teams>
+
+<h2>2021 Fantasy Football Teams</h2>
+<table class="table">
+    <tr>
+        <th>Team Name</th>
+        <th>Owner/Manager</th>
+        <th>Division</th>
+        <th>Record</th>
+        <th>Made Playoffs</th>
+       
+    </tr>
+
+    @foreach (var team in Model)
+    {
+        <tr>
+            <td>@team.TeamName</td>
+            <td>@team.Owner</td>
+            <td>@team.Division</td>
+            <td>@team.record</td>
+            <td>@team.MadePlayoffs</td>
+        </tr>
+    }
+</table>

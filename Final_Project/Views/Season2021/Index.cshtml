@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Season2021>
+<h2>2021 Regular Season</h2>
+<table class="table">
+    <tr>
+        <th> Team </th>
+        <th> Game 1 </th>
+        <th> Game 2 </th>
+        <th> Game 3 </th>
+        <th> Game 4 </th>
+        <th> Game 5 </th>
+        <th> Game 6 </th>
+        <th> Game 7 </th>
+        <th> Game 8 </th>
+        <th> Game 9 </th>
+        <th> Game 10 </th>
+        <th> Game 11 </th>
+        <th> Game 12 </th>
+        <th> Game 13 </th>
+        <th> Game 14 </th>
+    </tr>
+    
+    @foreach (var record in Model)
+    {
+        <tr>
+            <td>@record.Team</td>
+            <td>@record.Week1</td>
+            <td>@record.Week2</td>
+            <td>@record.Week3</td>
+            <td>@record.Week4</td>
+            <td>@record.Week5</td>
+            <td>@record.Week6</td>
+            <td>@record.Week7</td>
+            <td>@record.Week8</td>
+            <td>@record.Week9</td>
+            <td>@record.Week10</td>
+            <td>@record.Week11</td>
+            <td>@record.Week12</td>
+            <td>@record.Week13</td>
+            <td>@record.Week14</td>
+        </tr>
+    }
+
+</table>
