@@ -8,12 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Images\NewBG.webp" />
+    <Content Include="Images\download.jfif" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="wwwroot\css\Logo.png" />
+    <None Include="wwwroot\css\NewBG.webp" />
     <None Include="wwwroot\css\PlayoffIndexcshtml.css" />
+    <None Include="wwwroot\css\Resized_20220822_220616.jpeg" />
   </ItemGroup>
 
   <ItemGroup>

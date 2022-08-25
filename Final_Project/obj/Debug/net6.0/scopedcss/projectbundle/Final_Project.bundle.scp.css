@@ -1,18 +1,47 @@
 /* _content/Final_Project/Views/Home/index.cshtml.rz.scp.css */
-*[b-6m867ex18m]{
-    font-family:'Times New Roman', Times, serif;
+*[b-6m867ex18m] {
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-color:white;
 }
-main[b-6m867ex18m]{
+.heading[b-6m867ex18m]{
+    text-align:center;
+    margin-bottom:0;
+    margin-top:0;
+}
+
+.flex-container[b-6m867ex18m]{display:flex;
+                flex-direction:row;
+                justify-content:space-around;
 }
 .display-4[b-6m867ex18m]{
     font-size:60px;
-    color:crimson;
     padding-block:auto;
 }
-.about[b-6m867ex18m]{
-    justify-items:center;
-    font-size:large;
-    color:crimson;
+.about[b-6m867ex18m]{ margin-top:20px;
+  color:black;
+  align-content:center;
+  margin-right:20%;
+
+}
+.about h4[b-6m867ex18m]{
+    text-align:center;
+        color:black;
+}
+.about p[b-6m867ex18m]{
+    color:black;
+    text-indent:10px;
+}
+.image[b-6m867ex18m]{
+    margin-top:20px%;
+    float.leftt;
+    padding:30px;
+}
+.rules[b-6m867ex18m]{
+    display:block;
+    justify-content:center;
+    list-style:none;
+    color:black;
 }
 /* _content/Final_Project/Views/Season2021/Index.cshtml.rz.scp.css */
 
@@ -58,9 +87,11 @@ p[b-xffqk0xy8i]{
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand[b-ripcdf71y9] {
-  white-space: normal;
+  white-space:normal;
   text-align: center;
   word-break: break-all;
+  background-color: white;
+  color:black;
 }
 
 a[b-ripcdf71y9] {

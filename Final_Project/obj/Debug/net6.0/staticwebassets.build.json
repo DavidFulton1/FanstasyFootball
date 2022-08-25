@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YJiFrrHKx21p0TY1wEf3zUp+pFzWYN23J57/MtIhYcI=",
+  "Hash": "vQolkJZBTrXpN7auLtCi8JHAQqFShBR6MuGnYf57kJs=",
   "Source": "Final_Project",
   "BasePath": "_content/Final_Project",
   "Mode": "Default",
@@ -68,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\css\\Logo.png"
     },
     {
+      "Identity": "C:\\Users\\fulto\\Desktop\\Final_Project\\Final_Project\\wwwroot\\css\\NewBG.webp",
+      "SourceId": "Final_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fulto\\Desktop\\Final_Project\\Final_Project\\wwwroot\\",
+      "BasePath": "_content/Final_Project",
+      "RelativePath": "css/NewBG.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\NewBG.webp"
+    },
+    {
       "Identity": "C:\\Users\\fulto\\Desktop\\Final_Project\\Final_Project\\wwwroot\\css\\PlayoffIndexcshtml.css",
       "SourceId": "Final_Project",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\PlayoffIndexcshtml.css"
+    },
+    {
+      "Identity": "C:\\Users\\fulto\\Desktop\\Final_Project\\Final_Project\\wwwroot\\css\\Resized_20220822_220616.jpeg",
+      "SourceId": "Final_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fulto\\Desktop\\Final_Project\\Final_Project\\wwwroot\\",
+      "BasePath": "_content/Final_Project",
+      "RelativePath": "css/Resized_20220822_220616.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Resized_20220822_220616.jpeg"
     },
     {
       "Identity": "C:\\Users\\fulto\\Desktop\\Final_Project\\Final_Project\\wwwroot\\css\\site.css",

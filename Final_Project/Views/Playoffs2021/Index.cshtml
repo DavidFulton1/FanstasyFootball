@@ -2,13 +2,8 @@
 <head>
     <link href="~/css/PlayoffIndexcshtml.css" rel="stylesheet" />
 </head>
-<h2> Results of the 2021 Deep South Brunch Club Tournament</h2>
- <span class="spacer">&nbsp;</span>
- <span class="spacer">&nbsp;</span>
-  <span class="spacer">&nbsp;</span>
- <span class="spacer">&nbsp;</span>
-  <span class="spacer">&nbsp;</span>
-  <span class="spacer">&nbsp;</span>
+ 
+
 <main id="tournament">
     <section class="container">
         <div class="flexleft">
@@ -17,7 +12,7 @@
            
             <div>
                 <div class="helper">
-                    <span>@Model.Left.FirstGame.TopTeam.Team</span>
+                    <span style="font-weight:bold">@Model.Left.FirstGame.TopTeam.Team</span>
                     <div class="game">
                         <hr class="brlines" />
                         @Model.Left.FirstGame.BotTeam.Team
@@ -28,13 +23,13 @@
                     <span> @Model.Left.SecondGame.TopTeam.Team</span>
                     <div class="game">
                         <hr class="brlines" />
-                        @Model.Left.SecondGame.BotTeam.Team
+                        <p style="font-weight:bold">@Model.Left.SecondGame.BotTeam.Team </p>
                         <hr class="brlines" />
                    
                     </div>
                 </div>
                 <div class="helper">
-                    <span>@Model.Left.ThirdGame.TopTeam.Team</span>
+                    <span style="font-weight:bold">@Model.Left.ThirdGame.TopTeam.Team</span>
                     <div class="game">
                         <hr class="brlines" />
                         @Model.Left.ThirdGame.BotTeam.Team
@@ -46,7 +41,7 @@
                     <span>@Model.Left.FourthGame.TopTeam.Team</span>
                     <div class="game">
                         <hr class="brlines" />
-                        @Model.Left.FourthGame.BotTeam.Team
+                      <p style=font-weight:bold> @Model.Left.FourthGame.BotTeam.Team</p>
                         <hr class="brlines" />
                         
                     </div>
@@ -57,41 +52,38 @@
 
             <h4>Semi-Finals</h4>
             <span class="spacer">&nbsp;</span>
-            <span class="spacer">&nbsp;</span>
-            <span class="spacer">&nbsp;</span>
+          
 
             <div class="helper">
-                <span class="gmspacer">&nbsp;</span>
+                <span class="gamespacer">&nbsp;</span>
                 <span>@Model.Middle.TopGame.TopTeam.Team</span>
                 <div class="game">
                     <hr class="brlines" />
-                    @Model.Middle.TopGame.BotTeam.Team
+                   <p style="font-weight:bold"> @Model.Middle.TopGame.BotTeam.Team</p>
                     <hr class="brlines" />
-               
-                </div>
+                    </div>
+                <span class="spacer">&nbsp;</span>
+                <span class="spacer">&nbsp;</span>
+                <span class="spacer">&nbsp;</span>
             </div>
             <div class="helper">
-                <span class="gmspacer">&nbsp;</span>
+                <span class="gamespacer">&nbsp;</span>
                 <span>@Model.Middle.BotomGame.TopTeam.Team</span>
                 <div class="game">
                     <hr class="brlines" />
-                    @Model.Middle.BotomGame.BotTeam.Team
+                   <p style="font-weight:bold"> @Model.Middle.BotomGame.BotTeam.Team</p>
                     <hr class="brlines" />
-                
                 </div>
             </div>
         </div>
 
         <div class="flexright">
 
-            <H4 style="color:gold">Chamionship Game</H4>
-            <span class="spacer">&nbsp;</span>
-            <span class="spacer">&nbsp;</span>
-            <span class="spacer">&nbsp;</span>
+            <h4>Championship Game</H4>
 
             <div class="right">
                 <div class="helper">
-                    <span>@Model.Right.Finals.TopTeam.Team</span>
+                    <span style="font-weight:bold">@Model.Right.Finals.TopTeam.Team --- Champion!!!</span>
                     <div class="game">
                         <hr class="brlines" />
                         @Model.Right.Finals.BotTeam.Team
@@ -99,6 +91,10 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div> 
+            
+            
         </div>
     </section>
 </main>

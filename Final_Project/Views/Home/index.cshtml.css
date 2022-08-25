@@ -1,15 +1,44 @@
-﻿*{
-    font-family:'Times New Roman', Times, serif;
+﻿* {
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-color:white;
 }
-main{
+.heading{
+    text-align:center;
+    margin-bottom:0;
+    margin-top:0;
+}
+
+.flex-container{display:flex;
+                flex-direction:row;
+                justify-content:space-around;
 }
 .display-4{
     font-size:60px;
-    color:crimson;
     padding-block:auto;
 }
-.about{
-    justify-items:center;
-    font-size:large;
-    color:crimson;
+.about{ margin-top:20px;
+  color:black;
+  align-content:center;
+  margin-right:20%;
+
+}
+.about h4{
+    text-align:center;
+        color:black;
+}
+.about p{
+    color:black;
+    text-indent:10px;
+}
+.image{
+    margin-top:20px%;
+    float.leftt;
+    padding:30px;
+}
+.rules{
+    display:block;
+    justify-content:center;
+    list-style:none;
+    color:black;
 }
