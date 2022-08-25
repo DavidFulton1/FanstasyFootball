@@ -4,7 +4,17 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>b7e110f2-c469-439d-8040-c4443484f595</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Images\NewBG.webp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\Logo.png" />
+    <None Include="wwwroot\css\PlayoffIndexcshtml.css" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />

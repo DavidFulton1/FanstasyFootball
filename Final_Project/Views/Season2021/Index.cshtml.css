@@ -1,0 +1,38 @@
+﻿
+p{
+    font-size:14px;
+    padding-top:20px;
+    text-align:center;
+}
+#Title
+{
+   text-align:center;
+   color:black;
+}
+.table
+{   scroll-margin-right:50px;
+    margin-top:50px;
+    font-size:smaller;
+    padding-top:75px;
+    border-block:solid;
+    border-left:solid;
+    border-right:solid;
+    border-block-color:black;
+}
+.c1
+{
+    background-color:navy;
+    color:white;
+    border-color:black;
+}
+.c2
+{
+    background-color: White;
+    border-color: black;
+}
+.c3 
+{
+    background-color: red;
+    color:white;
+    border-color: white;
+}

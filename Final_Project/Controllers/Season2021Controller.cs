@@ -18,7 +18,7 @@ namespace Final_Project.Controllers
         public IActionResult Index()
         {
             var records = repo.GetSeason();
-            return View();
+            return View(records);
         }
     }
 }

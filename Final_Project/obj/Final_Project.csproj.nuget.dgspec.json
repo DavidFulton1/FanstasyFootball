@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fulto\\Desktop\\Coding_Stuff\\Final project\\Final_Project\\Final_Project\\Final_Project.csproj": {}
+    "C:\\Users\\fulto\\Desktop\\Final_Project\\Final_Project\\Final_Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fulto\\Desktop\\Coding_Stuff\\Final project\\Final_Project\\Final_Project\\Final_Project.csproj": {
+    "C:\\Users\\fulto\\Desktop\\Final_Project\\Final_Project\\Final_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fulto\\Desktop\\Coding_Stuff\\Final project\\Final_Project\\Final_Project\\Final_Project.csproj",
+        "projectUniqueName": "C:\\Users\\fulto\\Desktop\\Final_Project\\Final_Project\\Final_Project.csproj",
         "projectName": "Final_Project",
-        "projectPath": "C:\\Users\\fulto\\Desktop\\Coding_Stuff\\Final project\\Final_Project\\Final_Project\\Final_Project.csproj",
+        "projectPath": "C:\\Users\\fulto\\Desktop\\Final_Project\\Final_Project\\Final_Project.csproj",
         "packagesPath": "C:\\Users\\fulto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fulto\\Desktop\\Coding_Stuff\\Final project\\Final_Project\\Final_Project\\obj\\",
+        "outputPath": "C:\\Users\\fulto\\Desktop\\Final_Project\\Final_Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fulto\\AppData\\Roaming\\NuGet\\NuGet.Config",

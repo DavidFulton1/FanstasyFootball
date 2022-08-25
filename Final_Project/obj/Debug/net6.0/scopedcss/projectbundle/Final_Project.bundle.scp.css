@@ -1,3 +1,58 @@
+/* _content/Final_Project/Views/Home/index.cshtml.rz.scp.css */
+*[b-6m867ex18m]{
+    font-family:'Times New Roman', Times, serif;
+}
+main[b-6m867ex18m]{
+}
+.display-4[b-6m867ex18m]{
+    font-size:60px;
+    color:crimson;
+    padding-block:auto;
+}
+.about[b-6m867ex18m]{
+    justify-items:center;
+    font-size:large;
+    color:crimson;
+}
+/* _content/Final_Project/Views/Season2021/Index.cshtml.rz.scp.css */
+
+p[b-xffqk0xy8i]{
+    font-size:14px;
+    padding-top:20px;
+    text-align:center;
+}
+#Title[b-xffqk0xy8i]
+{
+   text-align:center;
+   color:black;
+}
+.table[b-xffqk0xy8i]
+{   scroll-margin-right:50px;
+    margin-top:50px;
+    font-size:smaller;
+    padding-top:75px;
+    border-block:solid;
+    border-left:solid;
+    border-right:solid;
+    border-block-color:black;
+}
+.c1[b-xffqk0xy8i]
+{
+    background-color:navy;
+    color:white;
+    border-color:black;
+}
+.c2[b-xffqk0xy8i]
+{
+    background-color: White;
+    border-color: black;
+}
+.c3[b-xffqk0xy8i] 
+{
+    background-color: red;
+    color:white;
+    border-color: white;
+}
 /* _content/Final_Project/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */

@@ -16,6 +16,7 @@ builder.Services.AddScoped<IDbConnection>((s) =>
 
 builder.Services.AddTransient<ITeamsRepository, TeamsRepository>();
 builder.Services.AddTransient<ISeason2021Repository, Season2021Repository>();
+builder.Services.AddTransient<IPlayoffs2021Repository, Playoffs2021Repository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,0 +1,15 @@
+﻿*{
+    font-family:'Times New Roman', Times, serif;
+}
+main{
+}
+.display-4{
+    font-size:60px;
+    color:crimson;
+    padding-block:auto;
+}
+.about{
+    justify-items:center;
+    font-size:large;
+    color:crimson;
+}

@@ -2,8 +2,7 @@ namespace Final_Project.Models
 {
     public class ErrorViewModel
     {
-        public string? RequestId { get; set; }
-
+        internal string RequestId;
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }

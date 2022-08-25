@@ -1,0 +1,15 @@
+*[b-6m867ex18m]{
+    font-family:'Times New Roman', Times, serif;
+}
+main[b-6m867ex18m]{
+}
+.display-4[b-6m867ex18m]{
+    font-size:60px;
+    color:crimson;
+    padding-block:auto;
+}
+.about[b-6m867ex18m]{
+    justify-items:center;
+    font-size:large;
+    color:crimson;
+}
